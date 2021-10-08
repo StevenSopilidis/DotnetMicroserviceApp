@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using PlatformService.Data;
+using PlatformService.SyncDataServices.Http;
 
 namespace PlatformService
 {
@@ -31,6 +32,8 @@ namespace PlatformService
             services.AddControllers();
             services.AddDbContext<AppDbContext>(opts => opts.UseInMemoryDatabase("InMem"));
             services.AddScoped<IPlatformRepo, PlatformRepo>();
+            //make use of AddHttpClient so we can make use of HttpClientFactory
+            services.AddHttpClient<ICommandDataClient, HttpCommandDataClient>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddSwaggerGen(c =>
             {

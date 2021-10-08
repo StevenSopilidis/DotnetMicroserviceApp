@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xa3oG6lYuy69fqcYj+mYj2+XUKUv/ZmqMrLgukTd532HSZtiV7KmGCu41fnKi3BsO+jxNUFiZTSpnq3cTgyy7g==",
+  "dgSpecHash": "BS63kyrKhQ7R2T1U3WnhVx+CweD9KO3fd4Gh9PGWi0hcR6WcUSrIsEYbsvjDcN6yXlaodOs20d/9yLxxBHaSGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sopil\\OneDrive\\Desktop\\DotnetMIcroservicesApplication\\CommandService\\CommandService.csproj",
+  "projectFilePath": "C:\\Users\\sopil\\OneDrive\\Desktop\\DotnetMicroservicesApplication\\CommandService\\CommandService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sopil\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sopil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
