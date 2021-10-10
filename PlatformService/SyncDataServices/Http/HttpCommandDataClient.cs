@@ -26,6 +26,7 @@ namespace PlatformService.SyncDataServices.Http
                 "application/json"
             );
 
+            Console.WriteLine(_config["CommandService"]);
             var response = await _httpClient.PostAsync($"{_config["CommandService"]}", httpContent);
 
             if(response.IsSuccessStatusCode)
