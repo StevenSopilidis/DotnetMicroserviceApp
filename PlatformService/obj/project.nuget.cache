@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N9LeBCb8VmCP4kypmRUgr4Dnk5t9BxqpUGmdek36SsTIm2ZhEpYfUakf8NxDcg6i4kHGHBdxnOTFitv3ddInJw==",
+  "dgSpecHash": "S0YcYrS4/NiJZIUGbvZi89RfRcUnC19QdddboNUJuaGRhWxEynf/AfJVfjvg3FKqDWAn5eQiynBPq/2Ubx//aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sopil\\OneDrive\\Desktop\\DotnetMIcroservicesApplication\\PlatformService\\PlatformService.csproj",
+  "projectFilePath": "C:\\Users\\sopil\\OneDrive\\Desktop\\DotnetMIcroservicesApplication\\platformservice\\PlatformService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sopil\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\sopil\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
