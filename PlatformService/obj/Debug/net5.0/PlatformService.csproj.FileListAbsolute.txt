@@ -62,3 +62,4 @@ C:\Users\sopil\OneDrive\Desktop\DotnetMicroservicesApplication\PlatformService\o
 C:\Users\sopil\OneDrive\Desktop\DotnetMicroservicesApplication\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\Users\sopil\OneDrive\Desktop\DotnetMicroservicesApplication\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 C:\Users\sopil\OneDrive\Desktop\DotnetMicroservicesApplication\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
+C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\PlatformService\bin\Debug\net5.0\RabbitMQ.Client.dll
