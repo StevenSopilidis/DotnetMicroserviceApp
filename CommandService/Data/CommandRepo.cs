@@ -62,5 +62,11 @@ namespace CommandService.Data
         {
             return ( await _context.SaveChangesAsync() )> 0;
         }
+        public async Task<bool> ExternalPlatformExists(int externalPlatformId)
+        {
+            return await _context.Platforms.AnyAsync(
+                p => p.ExternalID == externalPlatformId
+            );
+        }
     }
 }

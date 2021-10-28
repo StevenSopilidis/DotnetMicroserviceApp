@@ -14,7 +14,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using CommandService.Data;
+using CommandService.EventProcessing;
+using CommandService.AsyncDataServices;
 
 namespace CommandService
 {
@@ -32,9 +33,11 @@ namespace CommandService
         {
 
             services.AddControllers();
+            services.AddHostedService<MessageBusSubscriber>();
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddDbContext<AppDbContext>(opts => opts.UseInMemoryDatabase("InMem"));
-            services.AddScoped<ICommandRepo, CommandRepo>();
+            services.AddScoped<ICommandRepo,CommandRepo>();
+            services.AddSingleton<IEventProcessor,EventProcessor>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CommandService", Version = "v1" });

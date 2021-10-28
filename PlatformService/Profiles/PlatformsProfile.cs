@@ -9,7 +9,8 @@ namespace PlatformService.Profiles
         {
             CreateMap<Platform, PlatformReadDto>();
             CreateMap<PlatformCreateDto, Platform>();
-            CreateMap<PlatformReadDto, PlatformPublishedDto>();
+            CreateMap<PlatformReadDto, PlatformPublishedDto>()
+                .BeforeMap((s, d) => d.Event = "Event_Published");
         }
     }
 }

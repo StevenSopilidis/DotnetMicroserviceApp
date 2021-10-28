@@ -62,3 +62,4 @@ C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\CommandService\ob
 C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\CommandService\obj\Debug\net5.0\ref\CommandService.dll
 C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\CommandService\obj\Debug\net5.0\CommandService.pdb
 C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\CommandService\obj\Debug\net5.0\CommandService.genruntimeconfig.cache
+C:\Users\sopil\OneDrive\Desktop\DotnetMIcroservicesApplication\CommandService\bin\Debug\net5.0\RabbitMQ.Client.dll
